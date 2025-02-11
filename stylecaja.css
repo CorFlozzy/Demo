@@ -1,0 +1,89 @@
+/* box model
+
+    layout model: definir donde voy a colocar cada uno de los elementos
+
+    formas de trabajarlo
+
+    1.box model
+    2.position
+    3.flex box
+    4. css grid
+
+box model
+todos los modelos de html son rectangulos, no existe otra forma
+
+existen 2 tipos de elementos
+
+    *bloque
+        -ocupan todo el espacio horizontal disponible
+    *inline
+        - en linea, ocupan solo el espacio necesario para su contenido
+
+Unidades de longitud: medidas de tamano
+    *pixeles(px)
+
+    *em: me representa el porcentaje de tamano de fuente o letra actual
+    *rem: pocentaje de tamano fuente o del body(esto sirve para que la caja tenga el mismo tamano ya que es el tamano del body por lo que es igual para los dos)
+
+    width: ancho
+    height: altura
+
+
+h1{
+    background-color: yellow;
+   
+}
+
+p{
+    background-color: brown;
+   width: 15rem;
+   height: 150px;
+}
+
+a{
+    background-color: rosybrown;
+} */
+
+
+
+
+
+
+
+
+/* propiedad display
+
+
+permite definir como se vera un elemento en la pantalla
+
+block
+inline
+inline block
+    none:ocultar
+        *flex
+        *grid
+*/
+
+h1{
+    background-color: royalblue;
+    display: block;   
+}
+a{
+    display: block;
+}
+
+p{
+    background-color: brown;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+
+p{
+    background-color: brown;
+    display: none;
+    width: 100px;
+    height: 100px;
+
+}
